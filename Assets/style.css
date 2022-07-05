@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+    background-color: beige;
+    margin: 0;
+}
+
+.NavBar {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Poppins';
+    padding: 0 10px;
+    color: white;
+}
+
+.NavBar-title {
+    font-size: 30px;
+}
+
+.NavBar-list {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.NavBar-item:hover {
+    background-color: grey;
+}
