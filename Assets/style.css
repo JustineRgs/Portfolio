@@ -26,6 +26,9 @@ body {
     justify-content: space-between;
 }
 
+.NavBar-item {
+    padding : 2px 5px;
+}
 .NavBar-item:hover {
     background-color: grey;
 }
