@@ -29,3 +29,23 @@ body {
 .NavBar-item:hover {
     background-color: grey;
 }
+
+.Card {
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    width: 1000px;
+    display: flex;
+}
+
+.Card-Img {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.Card-Content {
+    width: 100%;
+    text-align: center;
+    margin: auto 0;
+}
