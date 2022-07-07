@@ -1,0 +1,29 @@
+.Card {
+    background-color: white;
+    margin: 90px auto;
+    padding: 20px;
+    width: 1000px;
+    display: flex;
+}
+
+.Card-Img {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    border-radius: 10%;
+}
+
+.Card-Content {
+    width: 100%;
+    text-align:justify;
+    margin: auto 20px;
+}
+
+.Card-Title {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+
+.Card-Description {
+    margin: 10px auto ;
+}

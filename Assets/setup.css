@@ -58,11 +58,11 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 body {
   overflow-x: hidden;
   font-size: 0.8rem;
   font-weight: 300;
   line-height: 2;
-  color: var(--color-mainLight);
-  background-color: var(--color-mainbg);
+  
 }

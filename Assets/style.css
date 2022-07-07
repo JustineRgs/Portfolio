@@ -1,23 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 body {
-    background-color: beige;
+    color:black;
+    background-color: blanchedalmond;
     margin: 0;
+    font-family:'Calibri';
+    background-image: url(../bgd2.jpg);
+    background-size: cover;
+
 }
 
 .NavBar {
-    background-color: black;
+    background-color: white;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family:'Poppins';
-    padding: 0 10px;
-    color: white;
+    padding: 30px 110px;
+    color: black;
 }
 
 .NavBar-title {
-    font-size: 30px;
+    font-size: 60px;
+    font-family:'Ms Madi';
 }
 
 .NavBar-list {
@@ -27,28 +33,9 @@ body {
 }
 
 .NavBar-item {
-    padding : 2px 5px;
+    padding : 2px 6px;
 }
+
 .NavBar-item:hover {
-    background-color: grey;
-}
-
-.Card {
-    background-color: white;
-    margin: 50px auto;
-    padding: 20px;
-    width: 1000px;
-    display: flex;
-}
-
-.Card-Img {
-    display: flex;
-    justify-content: flex-start;
-    width: 50%;
-}
-
-.Card-Content {
-    width: 100%;
-    text-align: center;
-    margin: auto 0;
+    background-color: #acb3a5 ;
 }
