@@ -28,7 +28,7 @@ body {
 
 .NavBar-list {
     display: flex;
-    width: 250px;
+    width: 350px;
     justify-content: space-between;
 }
 
