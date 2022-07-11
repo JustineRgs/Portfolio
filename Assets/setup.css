@@ -64,5 +64,9 @@ body {
   font-size: 0.8rem;
   font-weight: 300;
   line-height: 2;
-  
+  margin: 0;
+  color:black;
+  background-color: blanchedalmond;
+  font-family:'Calibri';
+  background-image: url(../bgd2.jpg);
 }

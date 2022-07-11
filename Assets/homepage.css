@@ -1,5 +1,6 @@
 .Card {
-    background-color: white;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 7px #acb3a5;
     margin: 90px auto;
     padding: 20px;
     width: 1000px;
@@ -8,20 +9,19 @@
 
 .Card-Img {
     display: flex;
-    justify-content: flex-start;
     width: 50%;
     border-radius: 5%;
 }
 
 .Card-Content {
     width: 100%;
-    text-align:justify;
+    text-align: justify;
     margin: auto 20px;
 }
 
 .Card-Title {
     text-align: center;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New';
 }
 
 .Card-Description {
