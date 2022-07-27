@@ -1,0 +1,27 @@
+.Card{
+    display: flex;
+    margin: 90px auto;
+    width: 85%;
+}
+
+.Card-Container1 {
+    width: 42.5%;
+    text-align: right;
+    padding-right: 4%;
+}
+
+.Card-Title{
+    font-weight: bold;
+}
+
+.Card-Img {
+    width: 15%;
+ }
+ 
+ .Card-Container2 {
+    width: 42.5%;
+}
+
+ion-icon {
+    vertical-align: middle;
+}

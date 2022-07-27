@@ -1,10 +1,10 @@
 .Card {
     background-color: whitesmoke;
     box-shadow: 2px 2px 7px #acb3a5;
+    display: flex;
     margin: 90px auto;
     padding: 20px;
     width: 1000px;
-    display: flex;
 }
 
 .Card-Img {
