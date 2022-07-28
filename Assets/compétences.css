@@ -1,62 +1,87 @@
-.Card{
+.Card {
     display: flex;
-    width: 350px;
     margin: 90px auto;
     width: 90%;
     font-family: "poppins";
 }
 
-.Card-Container1 {
+.Card-Container {
     width: 42.5%;
-    text-align: right;
     padding: 20px;
 }
 
-.Card-Container2 {
-   width: 42.5%;
-   padding: 20px;
+.Card-Container--secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
 }
 
 .Card-Img {
+    object-fit: contain;
     width: 15%;
  }
 
-.Card-Title{
+ .Card-Content {
+     margin-top: 60px;
+     padding: 0 10px;
+     width: fit-content;
+ }
+ 
+ .Card-Content:hover {
+     box-shadow:  0px 0px 10px 1px #132824;
+     background-color: #1c463e21;
+     border-radius: 10px;
+ }
+
+.Card-Title {
     font-weight: bold;
     font-family: "calibri";
-    padding: 60px 0 0 0;
 }
 
-.Card-Subtitle{
-    font-size: medium;
+.Card-Subtitle {
+    font-size: 16px;
 }
 
-.Card-Description1{
+.Card-Description {
     font-size: 13px;
     color: #083B32;
     font-style: italic;
 }
 
-.Card-Description2{
-    width: 400px;
-    font-size: 13px;
-    color: #083B32;
+.Card-Description--Secondary {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.Description{
+.Card-Element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Card-Element:nth-child(2) {
+    margin: 0 10px;
+}
+
+.Card-Icon {
+    font-size: 30px;
+    padding: 10px 0 5px 0;
+    transition: ease-in-out 0.5s;
+}
+
+.Card-Icon:hover {
+    transform: rotate(180deg);
+}
+
+
+.Card-Text {
+    font-size: 13px;
+    color: #083B32;
     width: 112px;
     text-align: center;
 }
 
-.Card-Icon{
-    width: 400px;
-    font-size: 30px;
-    padding: 10px 0 5px 0;
-    display: flex;
-    justify-content: space-around;
-}
 
 ion-icon {
     vertical-align:middle;
