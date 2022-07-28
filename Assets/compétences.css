@@ -1,27 +1,63 @@
 .Card{
     display: flex;
+    width: 350px;
     margin: 90px auto;
-    width: 85%;
+    width: 90%;
+    font-family: "poppins";
 }
 
 .Card-Container1 {
     width: 42.5%;
     text-align: right;
-    padding-right: 4%;
+    padding: 20px;
 }
 
-.Card-Title{
-    font-weight: bold;
+.Card-Container2 {
+   width: 42.5%;
+   padding: 20px;
 }
 
 .Card-Img {
     width: 15%;
  }
- 
- .Card-Container2 {
-    width: 42.5%;
+
+.Card-Title{
+    font-weight: bold;
+    font-family: "calibri";
+    padding: 60px 0 0 0;
+}
+
+.Card-Subtitle{
+    font-size: medium;
+}
+
+.Card-Description1{
+    font-size: 13px;
+    color: #083B32;
+    font-style: italic;
+}
+
+.Card-Description2{
+    width: 400px;
+    font-size: 13px;
+    color: #083B32;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Description{
+    width: 112px;
+    text-align: center;
+}
+
+.Card-Icon{
+    width: 400px;
+    font-size: 30px;
+    padding: 10px 0 5px 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 ion-icon {
-    vertical-align: middle;
+    vertical-align:middle;
 }
