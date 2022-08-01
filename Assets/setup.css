@@ -29,6 +29,7 @@ ol {
 a {
   color: inherit;
   text-decoration: none;
+  display: block;
 }
 
 button {
@@ -71,4 +72,8 @@ body {
   background-color: white;
   font-family:'Calibri';
   background-image: url(../bgd2.jpg);
+}
+
+ion-icon {
+  vertical-align:middle;
 }

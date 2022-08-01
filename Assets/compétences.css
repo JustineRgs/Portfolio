@@ -23,20 +23,20 @@
  }
 
  .Card-Content {
-     margin-top: 60px;
-     padding: 0 10px;
-     width: fit-content;
+    margin-top: 40px;
+    padding: 0 10px;
  }
  
  .Card-Content:hover {
-     box-shadow:  0px 0px 10px 1px #132824;
-     background-color: #1c463e21;
-     border-radius: 10px;
+    box-shadow:  0px 0px 10px 1px #132824;
+    background-color: #1c463e21;
+    border-radius: 10px;
  }
 
 .Card-Title {
     font-weight: bold;
     font-family: "calibri";
+    font-size: 24px;
 }
 
 .Card-Subtitle {
@@ -66,7 +66,7 @@
 
 .Card-Icon {
     font-size: 30px;
-    padding: 10px 0 5px 0;
+    padding: 15px 0 5px 0;
     transition: ease-in-out 0.5s;
 }
 
@@ -74,15 +74,9 @@
     transform: rotate(180deg);
 }
 
-
 .Card-Text {
     font-size: 13px;
     color: #083B32;
     width: 112px;
     text-align: center;
-}
-
-
-ion-icon {
-    vertical-align:middle;
 }
