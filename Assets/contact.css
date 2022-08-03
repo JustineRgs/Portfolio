@@ -20,10 +20,13 @@
 
 .Card-Content{
     display: flex;
+    text-align: center;
 }
 
 .Card-Description{
     width: 50%;
 }
 
-.Card-Description-Title
+.Card-Description-Title{
+
+}
