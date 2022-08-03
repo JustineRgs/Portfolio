@@ -18,11 +18,12 @@
     font-family:'Ms Madi';
 }
 
-.NavBar-list {
-    display: flex;
-    width: 350px;
-    justify-content: space-between;
+.NavBar-burger {
+    position: relative;
+    font-size: 30px;
+    padding: 20px;
 }
+
 
 .NavBar-item {
     padding : 2px 7px; 
@@ -31,4 +32,38 @@
 
 .NavBar-item:hover {
     background-color: #acb3a5 ;
+}
+
+@media (max-width: 900px) {
+    .NavBar {
+        padding: 15px 30px;
+    }
+
+    .NavBar-title {
+        font-size: 40px;
+        font-family:'Ms Madi';
+    }
+
+    .NavBar-list {
+        position: absolute;
+        bottom: -118px;
+        right: 0;
+        padding: 0 10px 10px 10px;
+        width: 200px;
+        background-color: white;
+        box-shadow: 0px 5px 5px grey;
+    }
+}
+
+@media (min-width: 900px) {
+    
+    .NavBar-burger {
+        display: none;
+    }
+    
+    .NavBar-list {
+        display: flex;
+        width: 350px;
+        justify-content: space-between;
+    }
 }

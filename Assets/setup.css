@@ -78,6 +78,10 @@ ion-icon {
   vertical-align:middle;
 }
 
+.Display-none {
+  display: none;
+}
+
 @media (max-width: 1250px) {
   body {
     overflow-y: auto;
