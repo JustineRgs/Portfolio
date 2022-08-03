@@ -19,7 +19,6 @@
 }
 
 .NavBar-burger {
-    z-index: 10;
     position: relative;
     font-size: 30px;
     padding: 20px;
