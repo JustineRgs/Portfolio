@@ -77,3 +77,9 @@ body {
 ion-icon {
   vertical-align:middle;
 }
+
+@media (max-width: 1250px) {
+  body {
+    overflow-y: auto;
+  }
+}
