@@ -51,7 +51,6 @@
 
 .Card-Description--Secondary {
     display: flex;
-    justify-content: space-evenly;
 }
 
 .Card-Element {
@@ -80,3 +79,4 @@
     width: 112px;
     text-align: center;
 }
+
