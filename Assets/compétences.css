@@ -85,33 +85,59 @@
     .Card {
         display: block;
         margin: 0 auto;
+        position: relative;
     }
-
+    
     .Card-Container {
         width: 100%;
         text-align: center;
     }
-
+    
     .Card-Container--secondary {
         display: block;
         text-align: center;
     }
-
+    
     .Card-Content {
         width: auto;
     }
-
+    
     .Card-Img {
         position: absolute;
-        left: 50%;
+        top: 40%;
         right: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(50%, -50%);
         z-index: -1;
         object-fit: contain;
         width: 35%;
+        opacity: 0.5;
     }
-
+    
     .Card-Description--Secondary {
         justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .Card-Title {
+        text-shadow: 0px 0px 1px #132824;
+    }
+    
+    .Card-Subtitle {
+        text-shadow: 0px 0px 1px #132824;    
+    }
+    
+    .Card-Description {
+        text-shadow: 0px 0px 1px #132824;
+    }
+    
+    .Card-Text {
+        text-shadow: 0px 0px 1px #132824;
+    }
+}
+
+@media (max-width: 600px) {
+    .Card-Img {
+        top: 30%;
+        width: 50%;
     }
 }
