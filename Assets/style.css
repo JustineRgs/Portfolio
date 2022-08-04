@@ -11,6 +11,7 @@
     font-family:'Poppins';
     padding: 15px 110px;
     color: black;
+    z-index: 100;
 }
 
 .NavBar-title {
@@ -37,6 +38,7 @@
 @media (max-width: 900px) {
     .NavBar {
         padding: 15px 30px;
+        position: relative;
     }
 
     .NavBar-title {
