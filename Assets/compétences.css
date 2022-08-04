@@ -103,8 +103,8 @@
     }
     
     .Card-Img {
-        position: absolute;
-        top: 40%;
+        position: fixed;
+        top: 60%;
         right: 50%;
         transform: translate(50%, -50%);
         z-index: -1;
@@ -137,7 +137,7 @@
 
 @media (max-width: 600px) {
     .Card-Img {
-        top: 30%;
+        top: 55%;
         width: 50%;
     }
 }
