@@ -2,14 +2,13 @@
     background-color: whitesmoke;
     box-shadow: 2px 2px 7px #acb3a5;
     display: flex;
-    margin: 90px auto;
+    margin: 30px auto;
     padding: 20px;
-    width: 50%;
-
+    width: 140vh;
 }
 
 .Card-Img {
-    width: 50%;
+    width: 45%;
     border-radius: 5%;
     object-fit: cover;
 }

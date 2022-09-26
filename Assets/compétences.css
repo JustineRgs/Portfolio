@@ -1,13 +1,13 @@
 .Card {
     display: flex;
-    margin: 90px auto;
+    margin: 20px auto;
     width: 90%;
     font-family: "poppins";
 }
 
 .Card-Container {
     width: 42.5%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .Card-Container--secondary {
@@ -111,6 +111,8 @@
         object-fit: contain;
         width: 35%;
         opacity: 0.5;
+        display: flex;
+        margin : 100px 0 0 0;
     }
     
     .Card-Description--Secondary {
