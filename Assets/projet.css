@@ -25,6 +25,10 @@
     filter: grayscale(95%) blur(0.7px);
 }
 
+.Card-Img {
+
+}
+
 .Img-Description {
     display: flex;
     justify-content: center;
@@ -33,10 +37,11 @@
     font-size: 100%;
     flex-wrap: nowrap;
 }
-/* responsive */
+
+
 @media (max-width: 1250px) {
     .Card-Content {
         display: block;
-        width: 78%;
+        width: 80%;
     }
 }
