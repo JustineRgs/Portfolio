@@ -32,10 +32,9 @@
 .Img-Description {
     display: flex;
     justify-content: center;
-    margin-top: 8px;
+    margin-top: 10x;
     text-align: center;
-    font-size: 100%;
-    flex-wrap: nowrap;
+    font-size: 80%;
 }
 
 
