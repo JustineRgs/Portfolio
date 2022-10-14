@@ -33,11 +33,10 @@
     font-size: 100%;
     flex-wrap: nowrap;
 }
-
-
+/* responsive */
 @media (max-width: 1250px) {
     .Card-Content {
         display: block;
-        width: 80%;
+        width: 78%;
     }
 }
