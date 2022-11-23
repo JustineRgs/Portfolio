@@ -1,0 +1,49 @@
+/*Titres et paragraphes*/
+h2{
+    text-decoration: underline;
+}
+
+p{
+    color: grey;
+    font-style: italic;
+}
+
+span{
+    color: grey;
+    font-style: italic;
+}
+
+/*Formulaires*/
+form{
+    margin:10px;
+}
+
+.fieldset{
+    border: solid 1px #31B86B;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    border:0;
+        border-bottom: solid 1px #086375;
+}
+
+textarea{
+    width: 100%;
+}
+
+    /*Input File*/
+    #projet_fichier{
+        display: none;
+    }
+
+    #text_input_file{
+        color: black;
+        font-style: normal;
+    }
+
+    #projet_fichier_label{
+        background-color: #0863758a;
+    }
